@@ -88,15 +88,34 @@
   margin: 100px auto;
   min-width: 784px;
   width: 80%;
+  display: flex;
   border: 1px solid red;
 }
 
-.table_brief {
+.table_two-columns_brief {
   width: 175px;
-  line-height: 1.2px;
+  line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
+  color: #2f80ed;
+  text-align: left;
+  vertical-align: top;
+}
 
+.table_two-columns_main-text {
+  border: 1px solid green;
+  display: flex;
+  justify-content: space-between;
+}
+
+.table_two-columns_paragraph{
+  border: 1px solid blue;
+  text-align: left;
+  font-weight: normal;
+}
+
+.span-accent {
+  font-weight: bold;
 }
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
