@@ -84,7 +84,7 @@
   z-index: 95;
 }
 
-.table {
+/**.table {
   margin: 100px auto;
   min-width: 784px;
   width: 80%;
@@ -104,19 +104,114 @@
 
 .table_two-columns_main-text {
   border: 1px solid green;
-  display: flex;
-  justify-content: space-between;
 }
 
 .table_two-columns_paragraph{
   border: 1px solid blue;
   text-align: left;
   font-weight: normal;
-}
+}**/
 
 .span-accent {
   font-weight: bold;
 }
+
+.digits {
+  margin: 100px auto;
+  width: 1100px;
+}
+
+.digits__section-title {
+  display: flex;
+  justify-content: center;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.digits__section-subtitle {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.digits__table {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-top: 60px;
+}
+
+.table_cell {
+  width:  250px;
+}
+
+.table_cell_heading {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.table_cell_text {
+  margin-top: 20px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.feynman {
+  background-color: #f2f2f2;
+  position: relative;
+}
+
+.feynman__title {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 648px;
+  z-index: 80;
+  padding-top: 100px;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.feynman__subtitle {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  z-index: 79;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.feynman__link {
+  z-index: 78;
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  text-decoration: none;
+  color: #2f80ed;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.feynman_image {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 867px;
+  height: 637px;
+  z-index: 77;
+}
+
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
