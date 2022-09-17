@@ -152,7 +152,6 @@
 .table {
   display: flex;
   justify-content: space-between;
-  margin-top: 60px;
   width: 1100px;
 }
 
@@ -160,8 +159,8 @@
   list-style: none;
   width:  250px;
   z-index: 43;
-  margin-top: 80px;
   justify-content: space-between;
+  margin-top: 60px;
 }
 
 .table_cell_heading {
@@ -246,6 +245,7 @@
 
 .table__cell_theme_dark {
   width: 200px;
+  margin-top: 80px;
 }
 
 .kaufman__triangle {
