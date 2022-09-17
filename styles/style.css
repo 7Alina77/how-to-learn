@@ -15,6 +15,7 @@
 
 .description {
   display: flex;
+  justify-content: center;
 }
 
 .header_logo_place {
@@ -38,7 +39,7 @@
   line-height: 96px;
   font-size: 102px;
   font-weight: 600;
-  margin-left: 64px;;
+  margin-left: 64px;
   width: 730px;
   z-index: 99;
 }
@@ -49,9 +50,6 @@
   left: 64px;
   width: 388px;
   z-index: 98;
-}
-
-.header__subtitle {
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
@@ -82,12 +80,6 @@
   top: 64px;
   right: 0;
   z-index: 95;
-}
-
-.description {
-  display: flex;
-  justify-content: center;
-  
 }
 
 .description__table_two-columns {
@@ -238,7 +230,7 @@
 .kaufman {
   position: relative;
   padding-top: 90px;
-  padding-bottom: 90px ;
+  padding-bottom: 90px;
   background-color:  #1f1f1f;
   overflow: hidden;
   color: white;
