@@ -6,6 +6,7 @@
 }
 
 .header {
+  position: relative;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
@@ -107,6 +108,7 @@
 
 .two-columns__paragraph{
   margin: 0;
+  line-height: 34px;
   font-size: 18px;
   font-weight: normal;
   min-width: 784px;
