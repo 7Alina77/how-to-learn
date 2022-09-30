@@ -1,0 +1,5 @@
+.table_theme_dark {  
+    z-index: 48;
+    display: flex;
+    margin: 0 auto;
+  }

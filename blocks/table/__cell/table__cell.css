@@ -1,0 +1,7 @@
+.table__cell {
+    list-style: none;
+    width:  250px;
+    z-index: 43;
+    justify-content: space-between;
+    margin-top: 60px;
+  }
